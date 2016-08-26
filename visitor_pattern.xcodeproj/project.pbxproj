@@ -13,6 +13,11 @@
 		811DB4F21D703BED000D7356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811DB4F01D703BED000D7356 /* Main.storyboard */; };
 		811DB4F41D703BED000D7356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811DB4F31D703BED000D7356 /* Assets.xcassets */; };
 		811DB4F71D703BED000D7356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811DB4F51D703BED000D7356 /* LaunchScreen.storyboard */; };
+		811DB5021D703DC7000D7356 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB5011D703DC7000D7356 /* Person.m */; };
+		811DB5051D703E0E000D7356 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB5041D703E0E000D7356 /* Company.m */; };
+		811DB5091D704415000D7356 /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB5081D704415000D7356 /* Bank.m */; };
+		811DB50C1D704715000D7356 /* HtmlVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB50B1D704715000D7356 /* HtmlVisitor.m */; };
+		811DB50F1D7048F8000D7356 /* XmlVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB50E1D7048F8000D7356 /* XmlVisitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,18 @@
 		811DB4F31D703BED000D7356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811DB4F61D703BED000D7356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		811DB4F81D703BED000D7356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811DB4FF1D703C1A000D7356 /* IAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAccount.h; sourceTree = "<group>"; };
+		811DB5001D703DC7000D7356 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		811DB5011D703DC7000D7356 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		811DB5031D703E0E000D7356 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		811DB5041D703E0E000D7356 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		811DB5061D703EC0000D7356 /* IVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVisitor.h; sourceTree = "<group>"; };
+		811DB5071D704415000D7356 /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		811DB5081D704415000D7356 /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
+		811DB50A1D704715000D7356 /* HtmlVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlVisitor.h; sourceTree = "<group>"; };
+		811DB50B1D704715000D7356 /* HtmlVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlVisitor.m; sourceTree = "<group>"; };
+		811DB50D1D7048F8000D7356 /* XmlVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlVisitor.h; sourceTree = "<group>"; };
+		811DB50E1D7048F8000D7356 /* XmlVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlVisitor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 		811DB4E61D703BED000D7356 /* visitor_pattern */ = {
 			isa = PBXGroup;
 			children = (
+				811DB4FE1D703C06000D7356 /* Model */,
 				811DB4EA1D703BED000D7356 /* AppDelegate.h */,
 				811DB4EB1D703BED000D7356 /* AppDelegate.m */,
 				811DB4ED1D703BED000D7356 /* ViewController.h */,
@@ -77,6 +95,25 @@
 				811DB4E81D703BED000D7356 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		811DB4FE1D703C06000D7356 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				811DB4FF1D703C1A000D7356 /* IAccount.h */,
+				811DB5061D703EC0000D7356 /* IVisitor.h */,
+				811DB5001D703DC7000D7356 /* Person.h */,
+				811DB5011D703DC7000D7356 /* Person.m */,
+				811DB5031D703E0E000D7356 /* Company.h */,
+				811DB5041D703E0E000D7356 /* Company.m */,
+				811DB5071D704415000D7356 /* Bank.h */,
+				811DB5081D704415000D7356 /* Bank.m */,
+				811DB50A1D704715000D7356 /* HtmlVisitor.h */,
+				811DB50B1D704715000D7356 /* HtmlVisitor.m */,
+				811DB50D1D7048F8000D7356 /* XmlVisitor.h */,
+				811DB50E1D7048F8000D7356 /* XmlVisitor.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +186,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811DB50F1D7048F8000D7356 /* XmlVisitor.m in Sources */,
 				811DB4EF1D703BED000D7356 /* ViewController.m in Sources */,
+				811DB5051D703E0E000D7356 /* Company.m in Sources */,
 				811DB4EC1D703BED000D7356 /* AppDelegate.m in Sources */,
+				811DB5021D703DC7000D7356 /* Person.m in Sources */,
 				811DB4E91D703BED000D7356 /* main.m in Sources */,
+				811DB5091D704415000D7356 /* Bank.m in Sources */,
+				811DB50C1D704715000D7356 /* HtmlVisitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
