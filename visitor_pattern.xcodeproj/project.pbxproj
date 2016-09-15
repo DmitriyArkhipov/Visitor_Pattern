@@ -18,6 +18,7 @@
 		811DB5091D704415000D7356 /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB5081D704415000D7356 /* Bank.m */; };
 		811DB50C1D704715000D7356 /* HtmlVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB50B1D704715000D7356 /* HtmlVisitor.m */; };
 		811DB50F1D7048F8000D7356 /* XmlVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 811DB50E1D7048F8000D7356 /* XmlVisitor.m */; };
+		81FCF8381D8B125900A808BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 81FCF8371D8B125900A808BB /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		811DB50B1D704715000D7356 /* HtmlVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlVisitor.m; sourceTree = "<group>"; };
 		811DB50D1D7048F8000D7356 /* XmlVisitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmlVisitor.h; sourceTree = "<group>"; };
 		811DB50E1D7048F8000D7356 /* XmlVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmlVisitor.m; sourceTree = "<group>"; };
+		81FCF8371D8B125900A808BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		811DB4DB1D703BED000D7356 = {
 			isa = PBXGroup;
 			children = (
+				81FCF8371D8B125900A808BB /* LICENSE */,
 				811DB4E61D703BED000D7356 /* visitor_pattern */,
 				811DB4E51D703BED000D7356 /* Products */,
 			);
@@ -175,6 +178,7 @@
 			files = (
 				811DB4F71D703BED000D7356 /* LaunchScreen.storyboard in Resources */,
 				811DB4F41D703BED000D7356 /* Assets.xcassets in Resources */,
+				81FCF8381D8B125900A808BB /* LICENSE in Resources */,
 				811DB4F21D703BED000D7356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +348,7 @@
 				811DB4FD1D703BED000D7356 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
